@@ -1,0 +1,14 @@
+﻿<Window x:Class="NetworkPrinterSearch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NetworkPrinterSearch"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="btnGetPrinters" Content="Get Printers" HorizontalAlignment="Left" Margin="28,106,0,0" VerticalAlignment="Top" Height="111" Width="148" Click="btnGetPrinters_Click"/>
+        <ComboBox Name="cmbPrinters" HorizontalAlignment="Left" Margin="236,127,0,0" VerticalAlignment="Top" Width="455" Height="68"/>
+
+    </Grid>
+</Window>
